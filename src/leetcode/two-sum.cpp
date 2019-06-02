@@ -46,6 +46,7 @@ public:
 };
 
 void solve_two_sum_problem(void) {
+    cout << endl << "Running the problem " << __func__ << endl;
     Solution *s = new Solution();
     vector<int> numbers = {2, 7, 11, 15};
     int target = 9;

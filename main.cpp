@@ -5,8 +5,9 @@
 //using namespace testing;
 
 int main () {
-    cout << "Hello, World!" << endl;
-    solve_two_sum_problem();
+    cout << WELCOME_STRING << endl;
+//    solve_two_sum_problem();
+    solve_buy_and_sell_problem();
 
     return 0;
 }
