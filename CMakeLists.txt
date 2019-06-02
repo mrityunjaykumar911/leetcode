@@ -11,6 +11,7 @@ add_executable(leetcode
         src/leetcode/leetcode_common.h
         src/leetcode/two-sum.cpp
         src/leetcode/buy-and-sell-stocks.cpp
+        src/leetcode/contains_dup.cpp
         src/FirstProblem.cpp
         src/src_export.h
         src/uva_shortcut.h

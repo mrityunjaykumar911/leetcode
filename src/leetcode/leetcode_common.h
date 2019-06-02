@@ -7,5 +7,6 @@
 
 void solve_two_sum_problem(void);
 void solve_buy_and_sell_problem(void);
+void solve_dup_problem(void);
 
 #endif //SHUVA_LEETCODE_COMMON_H
