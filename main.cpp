@@ -10,7 +10,9 @@ int main () {
 //    solve_buy_and_sell_problem();
 //    solve_dup_problem();
 //    solve_prod_array_self();
-    solve_max_subarray_easy();
+//    solve_max_subarray_easy();
+//    test_cq();
+    solve_minrotatedarray();
 
     return 0;
 }

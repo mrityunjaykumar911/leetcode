@@ -10,5 +10,8 @@ void solve_buy_and_sell_problem(void);
 void solve_dup_problem(void);
 void solve_prod_array_self(void);
 void solve_max_subarray_easy (void);
+void test_cq(void);
+void solve_MaxProdSubarray(void);
+void solve_minrotatedarray(void);
 
 #endif //SHUVA_LEETCODE_COMMON_H

@@ -18,4 +18,6 @@ add_executable(leetcode
         src/src_export.h
         src/uva_shortcut.h
         common.h
-        main.cpp)
+        main.cpp
+        src/leetcode/MaxProdSubarray.cpp
+        src/leetcode/minSortedRotated.cpp)
