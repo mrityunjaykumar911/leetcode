@@ -12,8 +12,8 @@ int main () {
 //    solve_prod_array_self();
 //    solve_max_subarray_easy();
 //    test_cq();
-//    solve_FindMinSortedArray();
-    solve_search_minrotatedarray();
+//    solve_minrotatedarray();
+    solve_FindMinSortedArray();
 
     return 0;
 }

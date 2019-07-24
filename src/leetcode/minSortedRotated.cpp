@@ -5,84 +5,52 @@
 
 class Solution {
 public:
-    int findMinUtil(vector<int>& arr, int start, int end, int target)
+    int findMinUtil(int* arr, int start, int end)
     {
         int mid = (start+end)/2;
-        if(start>end){
-            return -1;
+        //printf("mid=%d\n",mid);
+        if(mid==start){
+            return min(arr[start],arr[end]);
+//            return arr[start]<arr[end]?start:end;//min(arr[start],arr[end]);
         }
-        if(start==end){
-            return arr[start]==target?start:-1;
+        if(arr[mid-1]>arr[mid] && arr[mid]<arr[mid+1]){
+            return arr[mid];
+        }else{
+            if(arr[mid]<arr[start]){
+                return findMinUtil(arr,start,mid-1);
+            }else if(arr[start]<arr[mid] && arr[start]<arr[end]){
+                return arr[start];
+            }
+            else{
+                return findMinUtil(arr,mid+1,end);
+            }
         }
-        int x=target;
-        int s=arr[start];
-        int e=arr[end];
-        int m=arr[mid];
-        if(m==x){
-            return mid;
-        }
-        if(x == s){
-            return start;
-        }
-        if(x == e){
-            return end;
-        }
-
-        if(x <= m && x <= e){
-            // goto m,e
-            return findMinUtil (arr, mid+1, end, target);
-        }else if(s <= x && x <= m){
-            // goto s,m
-            return findMinUtil (arr, start, mid-1, target);
-        }
-        return -1;
-
     }
 
-    int search(vector<int>& nums, int target) {
+    int findMin(vector<int>& nums) {
         int n = nums.size();
-        if(n<=0){
-            return -1;
+        int *arr = new int[n];
+        for (int i = 0; i < n; ++i) {
+            arr[i] = nums[i];
         }
-        if(n==1){
-            return nums[0]==target?0:-1;
-        }
-//        int *arr = new int[n];
-//        for (int i = 0; i < n; ++i) {
-//            arr[i] = nums[i];
-//        }
-        auto x = findMinUtil(nums,0,n-1,target);
-//        delete []arr;
+        auto x = findMinUtil(arr,0,n-1);
+        delete []arr;
         return x;
     }
 };
 
-void solve_search_minrotatedarray (void) {
+void solve_minrotatedarray (void) {
     cout << endl << "Running the problem " << __func__ << endl;
     auto *s = new Solution ();
-    vector<int> arr = {4,5,6,7,0,1,2};
-    auto answer = s->search (arr, -1);
-    assert (answer==-1);
-    answer = s->search (arr, 0);
-    assert (answer==4);
-    answer = s->search (arr, 1);
-    assert (answer==5);
-    answer = s->search (arr, 2);
-    assert (answer==6);
-    answer = s->search (arr, 3);
-    assert (answer==-1);
-    answer = s->search (arr, 4);
-    assert (answer==0);
-    answer = s->search (arr, 5);
-    assert (answer==1);
-    answer = s->search (arr, 6);
-    assert (answer==2);
-    answer = s->search (arr, 7);
-    assert (answer==3);
-    answer = s->search (arr, 8);
-    assert (answer==-1);
-
-
+    vector<int> arr = {4, 5, 6,7,0};//{2,3,-2,4};//{2,-5,-2,-4,3};//{2,3,-2,4};
+    auto answer = s->findMin (arr);
+//    assert (answer==108);
+//    arr = {2,3,-2,4};//{2,-5,-2,-4,3};//{2,3,-2,4};
+//    answer = s->maxProduct (arr);
+//    assert (answer==6);
+//    arr = {2,-5,-2,1,20};
+//    answer = s->maxProduct (arr);
+//    assert (answer==400);
 
     cout << answer;
 }

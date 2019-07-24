@@ -14,6 +14,5 @@ void test_cq();
 void solve_MaxProdSubarray();
 void solve_minrotatedarray();
 void solve_FindMinSortedArray();
-void solve_search_minrotatedarray();
 
 #endif //SHUVA_LEETCODE_COMMON_H
