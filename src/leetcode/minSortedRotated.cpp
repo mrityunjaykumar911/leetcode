@@ -36,7 +36,7 @@ public:
 
     }
 
-    int findMin(vector<int>& nums, int target) {
+    int search(vector<int>& nums, int target) {
         int n = nums.size();
         int *arr = new int[n];
         for (int i = 0; i < n; ++i) {
@@ -52,25 +52,25 @@ void solve_search_minrotatedarray (void) {
     cout << endl << "Running the problem " << __func__ << endl;
     auto *s = new Solution ();
     vector<int> arr = {4,5,6,7,0,1,2};
-    auto answer = s->findMin (arr, -1);
+    auto answer = s->search (arr, -1);
     assert (answer==-1);
-    answer = s->findMin (arr, 0);
+    answer = s->search (arr, 0);
     assert (answer==4);
-    answer = s->findMin (arr, 1);
+    answer = s->search (arr, 1);
     assert (answer==5);
-    answer = s->findMin (arr, 2);
+    answer = s->search (arr, 2);
     assert (answer==6);
-    answer = s->findMin (arr, 3);
+    answer = s->search (arr, 3);
     assert (answer==-1);
-    answer = s->findMin (arr, 4);
+    answer = s->search (arr, 4);
     assert (answer==0);
-    answer = s->findMin (arr, 5);
+    answer = s->search (arr, 5);
     assert (answer==1);
-    answer = s->findMin (arr, 6);
+    answer = s->search (arr, 6);
     assert (answer==2);
-    answer = s->findMin (arr, 7);
+    answer = s->search (arr, 7);
     assert (answer==3);
-    answer = s->findMin (arr, 8);
+    answer = s->search (arr, 8);
     assert (answer==-1);
 
 
