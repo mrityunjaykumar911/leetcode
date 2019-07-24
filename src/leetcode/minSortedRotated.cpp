@@ -5,16 +5,19 @@
 
 class Solution {
 public:
-    int findMinUtil(const int* arr, int start, int end, int target)
+    int findMinUtil(vector<int>& arr, int start, int end, int target)
     {
         int mid = (start+end)/2;
+        if(start>end){
+            return -1;
+        }
+        if(start==end){
+            return arr[start]==target?start:-1;
+        }
         int x=target;
         int s=arr[start];
         int e=arr[end];
         int m=arr[mid];
-        if(start==end){
-            return arr[start]==target?start:-1;
-        }
         if(m==x){
             return mid;
         }
@@ -44,12 +47,12 @@ public:
         if(n==1){
             return nums[0]==target?0:-1;
         }
-        int *arr = new int[n];
-        for (int i = 0; i < n; ++i) {
-            arr[i] = nums[i];
-        }
-        auto x = findMinUtil(arr,0,n-1,target);
-        delete []arr;
+//        int *arr = new int[n];
+//        for (int i = 0; i < n; ++i) {
+//            arr[i] = nums[i];
+//        }
+        auto x = findMinUtil(nums,0,n-1,target);
+//        delete []arr;
         return x;
     }
 };
