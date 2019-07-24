@@ -38,6 +38,12 @@ public:
 
     int search(vector<int>& nums, int target) {
         int n = nums.size();
+        if(n<=0){
+            return -1;
+        }
+        if(n==1){
+            return nums[0]==target?0:-1;
+        }
         int *arr = new int[n];
         for (int i = 0; i < n; ++i) {
             arr[i] = nums[i];
