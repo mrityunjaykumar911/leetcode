@@ -13,7 +13,8 @@ int main () {
 //    solve_max_subarray_easy();
 //    test_cq();
 //    solve_minrotatedarray();
-    solve_FindMinSortedArray();
+//    solve_FindMinSortedArray();
+    solve_ThreeSUM();
 
     return 0;
 }
