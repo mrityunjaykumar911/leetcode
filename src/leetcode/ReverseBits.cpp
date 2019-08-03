@@ -26,6 +26,6 @@ void solve_ReverseBits (void) {
     cout << endl << "Running the problem " << __func__ << endl;
     Solution *s = new Solution ();
 
-    auto answer = s->reverseBits (00000010100101000001111010011100);
-    assert (answer==00111001011110000010100101000000);
+//    auto answer = s->reverseBits (00000010100101000001111010011100);
+//    assert (answer==00111001011110000010100101000000);
 }

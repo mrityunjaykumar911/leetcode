@@ -14,7 +14,8 @@ int main () {
 //    test_cq();
 //    solve_minrotatedarray();
 //    solve_FindMinSortedArray();
-    solve_ThreeSUM();
+//    solve_ThreeSUM();
+    solve_CoinChange();
 
     return 0;
 }

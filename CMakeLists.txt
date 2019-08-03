@@ -16,6 +16,7 @@ file(GLOB leetcode_SRC
     "src/*.h"
     "src/leetcode/*.h"
     "src/leetcode/*.cpp"
+        "src/leetcode/dp/*"
 )
 
 add_executable(leetcode ${leetcode_SRC})
