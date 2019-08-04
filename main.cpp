@@ -16,7 +16,8 @@ int main () {
 //    solve_FindMinSortedArray();
 //    solve_ThreeSUM();
 //    solve_CoinChange();
-    solve_LISSolve();
+//    solve_LISSolve();
+    solve_WordBreakDPCpp ();
 
     return 0;
 }

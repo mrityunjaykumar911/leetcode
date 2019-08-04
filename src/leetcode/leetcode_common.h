@@ -17,5 +17,6 @@ void solve_FindMinSortedArray();
 void solve_ThreeSUM();
 void solve_CoinChange();
 void solve_LISSolve();
+void solve_WordBreakDPCpp ();
 
 #endif //SHUVA_LEETCODE_COMMON_H
