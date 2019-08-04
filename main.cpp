@@ -15,7 +15,8 @@ int main () {
 //    solve_minrotatedarray();
 //    solve_FindMinSortedArray();
 //    solve_ThreeSUM();
-    solve_CoinChange();
+//    solve_CoinChange();
+    solve_LISSolve();
 
     return 0;
 }
