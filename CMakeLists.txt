@@ -19,4 +19,4 @@ file(GLOB leetcode_SRC
         "src/leetcode/dp/*"
 )
 
-add_executable(leetcode ${leetcode_SRC})
+add_executable(leetcode ${leetcode_SRC} src/leetcode/design/ThreadsCase1.cpp src/leetcode/LowerCase.cpp)

@@ -17,7 +17,9 @@ int main () {
 //    solve_ThreeSUM();
 //    solve_CoinChange();
 //    solve_LISSolve();
-    solve_WordBreakDPCpp ();
-
+//    solve_WordBreakDPCpp ();
+//    solve_COinCHangeAll();
+//    printThreadEvenOdd();
+    solve_lowercase();
     return 0;
 }
