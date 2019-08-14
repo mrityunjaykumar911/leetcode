@@ -18,8 +18,10 @@ int main () {
 //    solve_CoinChange();
 //    solve_LISSolve();
 //    solve_WordBreakDPCpp ();
-//    solve_COinCHangeAll();
+    solve_COinCHangeAll();
 //    printThreadEvenOdd();
-    solve_lowercase();
+//    solve_lowercase();
+//	solveH20Challenge();
+//	solve_SelfDividing();
     return 0;
 }

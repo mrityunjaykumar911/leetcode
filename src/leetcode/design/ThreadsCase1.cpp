@@ -5,11 +5,11 @@
 #include <condition_variable>
 
 using namespace std;
-std::mutex mtx;
-std::condition_variable cv;
+//std::mutex mtx;
+//std::condition_variable cv;
 int zero_state;
 int print_no;
-std::vector<int> numbers;
+//std::vector<int> numbers;
 bool done;
 
 void printNumberx(int x){

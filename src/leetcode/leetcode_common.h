@@ -21,5 +21,8 @@ void solve_WordBreakDPCpp ();
 void solve_COinCHangeAll();
 void printThreadEvenOdd();
 void solve_lowercase();
+void solveH20Challenge();
+void solve_SelfDividing();
+void solve_LCS_DP();
 
 #endif //SHUVA_LEETCODE_COMMON_H
