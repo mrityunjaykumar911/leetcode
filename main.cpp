@@ -18,10 +18,12 @@ int main () {
 //    solve_CoinChange();
 //    solve_LISSolve();
 //    solve_WordBreakDPCpp ();
-    solve_COinCHangeAll();
+//    solve_COinCHangeAll();
 //    printThreadEvenOdd();
 //    solve_lowercase();
 //	solveH20Challenge();
 //	solve_SelfDividing();
+//	solve_RObNOw();
+	solve_RobInCircle();
     return 0;
 }

@@ -24,5 +24,7 @@ void solve_lowercase();
 void solveH20Challenge();
 void solve_SelfDividing();
 void solve_LCS_DP();
+void solve_RObNOw();
+void solve_RobInCircle();
 
 #endif //SHUVA_LEETCODE_COMMON_H
