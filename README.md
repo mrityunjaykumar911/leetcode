@@ -15,7 +15,7 @@ Array
 - [x] Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 - [x] 3Sum - https://leetcode.com/problems/3sum/
 - [x] Container With Most Water - https://leetcode.com/problems/container-with-most-water/
-- [ ] dummy
+- [x] dummy
 
 ---
 
