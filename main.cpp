@@ -24,6 +24,7 @@ int main () {
 //	solveH20Challenge();
 //	solve_SelfDividing();
 //	solve_RObNOw();
-	solve_RobInCircle();
+//	solve_RobInCircle();
+	solve_DocdeWays();
     return 0;
 }

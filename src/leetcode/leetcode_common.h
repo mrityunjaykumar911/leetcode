@@ -26,5 +26,6 @@ void solve_SelfDividing();
 void solve_LCS_DP();
 void solve_RObNOw();
 void solve_RobInCircle();
+void solve_DocdeWays();
 
 #endif //SHUVA_LEETCODE_COMMON_H
