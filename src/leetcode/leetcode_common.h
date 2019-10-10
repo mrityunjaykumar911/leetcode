@@ -27,5 +27,12 @@ void solve_LCS_DP();
 void solve_RObNOw();
 void solve_RobInCircle();
 void solve_DocdeWays();
+void solve_ZigZagPayPal();
+void solve_EvenOddSort();
+void solve_RotateBy90();
+void solve_CountParity (void);
+void solve_DiagonalSort();
+void solve_decodeWays2();
+void solve_jumpGameI();
 
 #endif //SHUVA_LEETCODE_COMMON_H

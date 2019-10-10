@@ -25,6 +25,14 @@ int main () {
 //	solve_SelfDividing();
 //	solve_RObNOw();
 //	solve_RobInCircle();
-	solve_DocdeWays();
+//	solve_DocdeWays();
+//	solve_ZigZagPayPal();
+//	solve_EvenOddSort();
+//	solve_RotateBy90();
+//	solve_CountParity();
+//	solve_DiagonalSort();
+//	solve_decodeWays2();
+	solve_jumpGameI();
+	
     return 0;
 }
