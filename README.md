@@ -211,22 +211,22 @@ New Cloned Version of enumerated list of questions, this may be already covered 
 
 # Tree :
 
-[ ]Print Left View of Binary Tree
-[ ]Check for BST
-[ ]Print Bottom View of Binary Tree
-[ ]Print a Binary Tree in Vertical Order
-[ ]Level order traversal in spiral form
-[ ]Connect Nodes at Same Level
-[ ]Lowest Common Ancestor in a BST
-[ ]Convert a given Binary Tree to Doubly Linked List
-[ ]Write Code to Determine if Two Trees are Identical or Not
-[ ]Given a binary tree, check whether it is a mirror of itself
-[ ]Height of Binary Tree
-[ ]Maximum Path Sum
-[ ]Diameter of a Binary Tree
-[ ]Number of leaf nodes
-[ ]Check if given Binary Tree is Height Balanced or Not
-[ ]Serialize and Deserialize a Binary Tree
+[ ] Print Left View of Binary Tree
+[ ] Check for BST
+[ ] Print Bottom View of Binary Tree
+[ ] Print a Binary Tree in Vertical Order
+[ ] Level order traversal in spiral form
+[ ] Connect Nodes at Same Level
+[ ] Lowest Common Ancestor in a BST
+[ ] Convert a given Binary Tree to Doubly Linked List
+[ ] Write Code to Determine if Two Trees are Identical or Not
+[ ] Given a binary tree, check whether it is a mirror of itself
+[ ] Height of Binary Tree
+[ ] Maximum Path Sum
+[ ] Diameter of a Binary Tree
+[ ] Number of leaf nodes
+[ ] Check if given Binary Tree is Height Balanced or Not
+[ ] Serialize and Deserialize a Binary Tree
 
 # Heap :
 
