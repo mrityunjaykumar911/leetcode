@@ -47,14 +47,14 @@ Dynamic Programming
 
 Graph
 
-- [ ] Clone Graph - https://leetcode.com/problems/clone-graph/
-- [ ] Course Schedule - https://leetcode.com/problems/course-schedule/
-- [ ] Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
-- [ ] Number of Islands - https://leetcode.com/problems/number-of-islands/
-- [ ] Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
+- [x] Clone Graph - https://leetcode.com/problems/clone-graph/
+- [x] Course Schedule - https://leetcode.com/problems/course-schedule/
+- [x] Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
+- [x] Number of Islands - https://leetcode.com/problems/number-of-islands/
+- [x] Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
 - [ ] Alien Dictionary (Leetcode Premium) - https://leetcode.com/problems/alien-dictionary/
-- [ ] Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
-- [ ] Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+- [x] Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
+- [x] Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 
 ---
 
@@ -131,11 +131,11 @@ Heap
 
 If you find any of the solution is misleading you, Please feel free to contact [me](mailto:mrkumar@cs.stonybrook.edu)
 
-
 New Cloned Version of enumerated list of questions, this may be already covered in above part
-# Arrays :
+
 ----
 
+Arrays :
 - [ ] Subarray with given sum
 - [ ] Kadane’s Algorithm
 - [ ] Missing number in array
